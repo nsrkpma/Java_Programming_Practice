@@ -1,4 +1,4 @@
-package CodingProblems;
+package CodingProblems.StringProblems;
 
 import java.util.HashMap; import java.util.Map;
 

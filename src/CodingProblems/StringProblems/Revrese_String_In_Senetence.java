@@ -1,5 +1,5 @@
 //Write a program to reverse each word in a String
-package CodingProblems;
+package CodingProblems.StringProblems;
 
 import java.util.Scanner;
 
