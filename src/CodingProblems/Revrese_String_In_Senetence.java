@@ -3,7 +3,7 @@ package CodingProblems;
 
 import java.util.Scanner;
 
-public class Revrese_String {
+public class Revrese_String_In_Senetence {
 	
 	public static String reverseString(String str) {
 		String[] words=str.split(" ");
@@ -19,6 +19,7 @@ public class Revrese_String {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 Scanner myObj = new Scanner(System.in);
+		 System.out.println("Enter an String");
 		 String userinput=myObj.nextLine();
 		System.out.println(reverseString(userinput));
 		
