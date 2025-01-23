@@ -1,5 +1,8 @@
 package CodingProblems.Practice;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class PracticeCodingProblems {
 
 	public static void main(String[] args) {
@@ -9,7 +12,33 @@ public class PracticeCodingProblems {
 		System.out.println(multiply(3, 9));
 		System.out.println(multiplyWhile(3, 9));
 		System.out.println(maxDifference(arr));
+		
+		int[]a = {2,3,4,5,6};
+		int[]b = {2,5,6,7,6};
+		//System.out.println(Arrays.sort(a));
+		Object[] result=compareArrays(a,b);
+		System.out.println(result);
+		//enhanced for loop to print array
+		for(Object r:result) {
+			System.out.println(r);
+		}
+		
+		for(int i=0;i<result.length;i++) {
+			System.out.println(result[i]);
+		}
 
+	}
+	
+	public static Object[] compareArrays(int[]a,int[]b) {
+		ArrayList<Integer> al1=new ArrayList<Integer>();
+		if(a.length==b.length) {
+		for(int i=0;i<a.length;i++) {
+			if(a[i]==b[i]) {
+				al1.add(a[i]);
+			}
+		}
+	}
+		return al1.toArray();
 	}
 	
 	//Find the maximum difference between adjacent array elements
