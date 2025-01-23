@@ -5,7 +5,19 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ArraysProblems {
+	public static void main(String s1) {
+		System.out.println("good");
+	}
+	public void add(int a,int b) {
+		
+	}
+	//public int add(int a,int b) {
+		
+	//}
 
+	public void main(int s2) {
+		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
